@@ -27,3 +27,97 @@ arr[1] = 20
 arr[2] = 30
 arr[3] = 40
 arr[4] = 50
+
+/home/fotekokk/Test/OS/Lab5
+
+example1
+example1.c
+example2
+example2.c
+example3
+example3.c
+example4
+example4.c
+example5
+example5.c
+example6
+example6.c
+lab5.tar.gz
+log.txt
+
+-bash: cd: /home/Test/OS: No such file or directory
+  File: example1.c
+  Size: 485       	Blocks: 8          IO Block: 4096   regular file
+Device: 811h/2065d	Inode: 303069      Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1222/fotekokk)   Gid: ( 1224/fotekokk)
+Access: 2024-12-16 11:33:02.294813667 +0200
+Modify: 2024-12-16 11:31:33.726289811 +0200
+Change: 2024-12-16 11:31:33.726289811 +0200
+ Birth: -
+stat: cannot stat 'cp': No such file or directory
+  File: example1
+  Size: 16752     	Blocks: 40         IO Block: 4096   regular file
+Device: 811h/2065d	Inode: 303154      Links: 1
+Access: (0775/-rwxrwxr-x)  Uid: ( 1222/fotekokk)   Gid: ( 1224/fotekokk)
+Access: 2024-12-16 11:35:54.967834562 +0200
+Modify: 2024-12-16 11:34:31.267339752 +0200
+Change: 2024-12-16 11:34:31.267339752 +0200
+ Birth: -
+  File: example1
+  Size: 16752     	Blocks: 40         IO Block: 4096   regular file
+Device: 811h/2065d	Inode: 303154      Links: 1
+Access: (0775/-rwxrwxr-x)  Uid: ( 1222/fotekokk)   Gid: ( 1224/fotekokk)
+Access: 2024-12-16 11:35:54.967834562 +0200
+Modify: 2024-12-16 11:34:31.267339752 +0200
+Change: 2024-12-16 11:34:31.267339752 +0200
+ Birth: -
+
+cp: 'example1' and 'example1' are the same file
+rm: cannot remove 'lol': No such file or directory
+rmdir: failed to remove 'hoe': No such file or directory
+rmdir: invalid option -- 'r'
+Try 'rmdir --help' for more information.
+find: ‘.name’: No such file or directory
+find: ‘Hoes’: No such file or directory
+
+#include <stdio.h>
+
+int main(void) {
+    int x = 10;      // A normal integer variable
+    int *p;          // p is a pointer to an integer
+
+    p = &x;          // p now holds the address of x
+
+    printf("Value of x: %d\n", x);
+    printf("Address of x: %p\n", (void*)&x);
+    printf("Value of p: %p\n", (void*)p);
+    printf("Value pointed to by p: %d\n", *p);
+
+    *p = 20;         // Change the value of x using the pointer
+    printf("New value of x: %d\n", x);
+
+    return 0;
+}
+hoe: No such file or directory
+head: cannot open 'hoe' for reading: No such file or directory
+tail: cannot open 'hoe' for reading: No such file or directory
+Initialized empty Git repository in /home/fotekokk/Test/OS/Lab5/hoe/.git/
+fatal: destination path 'hoe' already exists and is not an empty directory.
+On branch New_feauture
+Your branch is up to date with 'origin/New_feauture'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	hoe/
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch New_feauture
+Your branch is up to date with 'origin/New_feauture'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
